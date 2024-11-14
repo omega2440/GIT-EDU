@@ -1,3 +1,5 @@
+import datetime
+print(datetime.datetime)
 print('! Hello!')
 while True:
     string = input('> Enter what to calculate: ').strip().lower()
