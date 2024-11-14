@@ -1,3 +1,6 @@
 while True:
     print('Hello!')
-    print(eval(input('Enter what to calculate: ')))
+    string = input('Enter what to calculate: ')
+    if string == 'quit':
+        break
+    print(eval(string))
