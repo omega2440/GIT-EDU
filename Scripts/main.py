@@ -1,1 +1,1 @@
-print(eval(input()))
+print(eval(input('Enter what to calculate: ')))
