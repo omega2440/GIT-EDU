@@ -1,2 +1,3 @@
-print('Hello!')
-print(eval(input('Enter what to calculate: ')))
+while True:
+    print('Hello!')
+    print(eval(input('Enter what to calculate: ')))
