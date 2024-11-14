@@ -6,4 +6,7 @@ while True:
     if string == 'q':
         print('! Bye!')
         break
-    print(eval(string))
+    try:
+        print(eval(string))
+    except Exception as ex:
+        print(f'! ERROR {ex}')
