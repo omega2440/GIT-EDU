@@ -1,6 +1,7 @@
+print('! Hello!')
 while True:
-    print('Hello!')
-    string = input('Enter what to calculate: ')
+    string = input('> Enter what to calculate: ').strip().lower()
     if string == 'q':
+        print('! Bye!')
         break
     print(eval(string))
