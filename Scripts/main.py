@@ -1,4 +1,9 @@
 import datetime
-import os
 print(datetime.datetime)
-print(os.path)
+print('! Hello!')
+while True:
+    string = input('> Enter what to calculate: ').strip().lower()
+    if string == 'q':
+        print('! Bye!')
+        break
+    print(eval(string))
